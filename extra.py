@@ -4,6 +4,12 @@ presidents = ["Calvin Coolidge", "Herbert Hoover" ,"Franklin D. Roosevelt","Harr
 for president in presidents:
     print(president)
 
+p =0
+while p < len(presidents)-1:
+    print (presidents[p])
+    p+=1
+
+
 #Write a loop to multiply all the numbers in a list. Sample List : [1, 2, 3, -4] Expected Output : -24
 
 list = [1,2,3,-4]
