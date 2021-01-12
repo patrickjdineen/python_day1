@@ -1,11 +1,13 @@
 #Create a while loop that displays the names of the 30th to the 44th President - Hint create a list first
 presidents = ["Calvin Coolidge", "Herbert Hoover" ,"Franklin D. Roosevelt","Harry S. Truman" ,"Dwight D. Eisenhower" ,"John F. Kennedy", "Lyndon B. Johnson" ,"Richard M. Nixon" ,"Gerald R. Ford", "James Carter", "Ronald Reagan","George H. W. Bush", "William J. Clinton", "George W. Bush", "Barack Obama"]
 
+#for loop
 for president in presidents:
     print(president)
 
+#while loop
 p =0
-while p < len(presidents)-1:
+while p < len(presidents):
     print (presidents[p])
     p+=1
 
