@@ -46,7 +46,10 @@ def add_it_up(i):
     j = 0
     sum = 0
     while j < i:
-        sum = j+1
-        j+=1
-    print(sum)
-add_it_up(5)
+        try:
+            j+=1   
+            sum += j
+        except:
+            print(0)
+            
+add_it_up(7)
